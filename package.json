@@ -1,0 +1,34 @@
+{
+  "name": "htmlbook",
+  "version": "0.1.10",
+  "description": "Markdown to HTMLBook converter",
+  "main": "./htmlbook.js",
+  "bin": {
+    "htmlbook": "bin/htmlbook"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oreillymedia/htmlbook.js"
+  },
+  "keywords": [
+    "htmlbook",
+    "markdown"
+  ],
+  "author": "O'Reilly Media",
+  "license": "MIT",
+  "dependencies": {
+    "html": "0.0.7",
+    "htmlparser2": "^3.8.3",
+    "kramed": "fchasen/kramed#autoIds",
+    "optparse": "1.0.4",
+    "string": "1.6.0",
+    "underscore": "1.5.2"
+  },
+  "devDependencies": {
+    "xml2js": "0.2.8",
+    "jasmine-node": "1.11.0"
+  }
+}
